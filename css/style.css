@@ -4,13 +4,15 @@ body{
 	font-size: 1.6rem;
 	font-family: 'Circe';
 }
-
+section{
+	border: 1px solid #dddddd;
+}
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	padding: 0;
 }
 h1{
-	font-size: 3rem;
+	font-size: 5rem;
 	padding: 1em 1rem 0.5em 1rem;
 }
 h2{
@@ -26,7 +28,54 @@ h4{
 	padding: 1em 1rem 0.5em 1rem;
 }
 
-.section{
-	background: #f1e2e2;
-	height: 100vh;
+/*---text------*/
+
+.flex-center{
+	justify-content: center;
+}
+.text-center{
+	text-align: center;
+}
+
+/*---block------*/
+.header-section{
+	color: rgb(241, 241, 241);
+}
+.header{
+	/* background: #f1a9a9; */
+	/* height: 100vh; */
+}
+.logo{
+	/* background: #c3f1a9; */
+	height: 5rem;
+}
+.menu{
+	/* background: #a9b4f1; */
+	/* height: 100vh; */
+}
+.contacts{
+	/* background: #a9b4f1; */
+	/* height: 100vh; */
+}
+
+.priveleges{
+	font-size: 3rem;
+	padding: 3rem 0;
+}
+
+.btn{
+	font-size: 1em;
+	border:0px solid #ccc; /*цвет границы*/
+	border-radius: 4px;
+	background:#99cc66;  /*цвет фона*/
+	padding: 1rem 6rem;
+	/*display:block;*/
+	text-align:center; /*выравнивание текста по центру*/
+	color:#fff;  /*цвет текста*/
+	text-decoration:none;  /*убрать подчёркивание у ссылки*/
+	width:auto;  /*ширина кнопки*/
+	margin:auto;  /*выравнивание кнопки по центру*/
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
