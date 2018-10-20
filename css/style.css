@@ -1,8 +1,11 @@
-*{
+*{border: 1px solid #dddddd;
 }
 body{
 	font-size: 1.6rem;
 	font-family: 'Circe';
+}
+.row{
+	border: 1px solid hsl(258, 82%, 43%);
 }
 section{
 	border: 1px solid #dddddd;
@@ -16,8 +19,9 @@ h1{
 	padding: 1em 1rem 0.5em 1rem;
 }
 h2{
-	font-size: 2.5rem;
-	padding: 1em 1rem 0.5em 1rem;
+	font-size: 3rem;
+	padding: 1.5em 1rem 1.5em 1rem;
+	/* border: 1px solid #dddddd; */
 }
 h3{
 	font-size: 2rem;
@@ -58,6 +62,9 @@ h4{
 	/* height: 100vh; */
 }
 
+.text-header{
+	justify-content: center;
+}
 .priveleges{
 	font-size: 3rem;
 	padding: 3rem 0;
