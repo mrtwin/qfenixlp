@@ -5,10 +5,10 @@ body{
 	font-family: 'Circe';
 }
 .row{
-	border: 1px solid hsl(258, 82%, 43%);
+	/* border: 1px solid hsl(258, 82%, 43%); */
 }
 section{
-	border: 1px solid #dddddd;
+	/* border: 1px solid #dddddd; */
 }
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
@@ -44,6 +44,7 @@ h4{
 /*---block------*/
 .header-section{
 	color: rgb(241, 241, 241);
+	padding-bottom: 4rem;
 }
 .header{
 	/* background: #f1a9a9; */
@@ -69,7 +70,9 @@ h4{
 	font-size: 3rem;
 	padding: 3rem 0;
 }
-
+.what-you-get{
+	padding: 3rem 0;
+}
 .btn{
 	font-size: 1em;
 	border:0px solid #ccc; /*цвет границы*/
