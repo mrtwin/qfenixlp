@@ -6,7 +6,7 @@ body{
 	font-family: 'Circe';
 }
 .row{
-	padding: 2rem 0;
+	/*padding: 2rem 0;*/
 	/* border: 1px solid hsl(258, 82%, 43%); */
 }
 p{
@@ -15,6 +15,7 @@ p{
 }
 img{
 	max-width: 90%;
+	padding: 2rem;
 }
 section{
 	/* border: 1px solid #dddddd; */
@@ -25,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1{
 	font-size: 5rem;
-	padding: 1em 1rem 0.5em 1rem;
+	padding: 1em 1rem 1em 1rem;
 }
 h2{
 	font-size: 3rem;
@@ -45,6 +46,7 @@ h4{
 
 .flex-center{
 	justify-content: center;
+	text-align: center;
 }
 .text-center{
 	text-align: center;
@@ -83,11 +85,15 @@ h4{
 }
 .priveleges{
 	font-size: 3rem;
-	padding: 3rem 0;
+	/*padding: 3rem 0;*/
+}
+.priveleges .text-center{
+	padding-bottom: 2rem;
 }
 .wedo{
 	background: linear-gradient(to top, #dddddd, #ffffff);
 	padding: 3rem 0;
+	font-size: 2rem;
 }
 .price{
 	background: linear-gradient(to top, #e2deff, #ffffff);
