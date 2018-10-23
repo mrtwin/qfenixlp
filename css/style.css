@@ -90,10 +90,21 @@ h4{
 .priveleges .text-center{
 	padding-bottom: 2rem;
 }
+.div-line{
+	display: inline-block;
+    text-align: ;
+    width: 20%;
+    /* height: 5px; */
+    border-bottom: 0.1em solid #99cc66;
+}
 .wedo{
 	background: linear-gradient(to top, #dddddd, #ffffff);
 	padding: 3rem 0;
 	font-size: 2rem;
+}
+.wedo p{
+	padding-bottom: 2rem;
+	margin-bottom: 0;
 }
 .price{
 	background: linear-gradient(to top, #e2deff, #ffffff);
@@ -102,6 +113,18 @@ h4{
 	padding: 0;
 	margin: 0;
 }
+.ex__right{
+	text-align: right; 
+	padding-top: 5rem;
+}
+.ex__center{
+	text-align: center;
+}
+.ex__left{
+	text-align: left; padding-top: 5rem;
+}
+
+
 .btn{
 	font-size: 1em;
 	border:0px solid #ccc; /*цвет границы*/

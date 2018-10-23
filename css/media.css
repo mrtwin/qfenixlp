@@ -1,0 +1,17 @@
+@media (min-width: 768px){
+.div-line {
+    display: none;
+}
+
+
+}
+
+@media (max-width: 768px){
+
+.ex__right, .ex__center, .ex__left{
+    text-align: center;
+	padding-top: 0;
+}
+
+
+}
