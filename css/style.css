@@ -106,9 +106,7 @@ h4{
 	padding-bottom: 2rem;
 	margin-bottom: 0;
 }
-.price{
-	background: linear-gradient(to top, #e2deff, #ffffff);
-}
+
 .example{
 	padding: 0;
 	margin: 0;
@@ -124,6 +122,27 @@ h4{
 	text-align: left; padding-top: 5rem;
 }
 
+.price-section{
+	background: linear-gradient(to top, #e2deff, #ffffff);
+	padding-bottom: 4rem;
+}
+.price-item{
+	margin-bottom: 4rem;
+	border: 1px solid #99cc66;
+	border-radius: 10px;
+}
+.price-item__header{
+	background: rgba(157, 208, 107, 0.25);
+	border-bottom: 1px solid #99cc66;
+	font-size: 2rem;
+	text-align: center;
+}
+.price-item__footer{
+	background: rgba(157, 208, 107, 0.25);
+	border-top: 1px solid #99cc66;
+	font-size: 2rem;
+	text-align: center;
+}
 
 .btn{
 	font-size: 1em;
