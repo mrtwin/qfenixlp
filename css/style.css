@@ -19,6 +19,7 @@ img{
 }
 section{
 	/* border: 1px solid #dddddd; */
+	padding-bottom: 4rem;
 }
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
@@ -61,7 +62,7 @@ h4{
 /*---block------*/
 .header-section{
 	color: rgb(241, 241, 241);
-	padding-bottom: 4rem;
+	/*padding-bottom: 4rem;*/
 }
 .header{
 	/* background: #f1a9a9; */
@@ -124,7 +125,7 @@ h4{
 
 .price-section{
 	background: linear-gradient(to top, #e2deff, #ffffff);
-	padding-bottom: 4rem;
+	/*padding-bottom: 4rem;*/
 }
 .price-item{
 	margin-bottom: 4rem;
@@ -160,6 +161,13 @@ h4{
 	text-align: center;
 }
 
+.footer-section{
+	background: #525252;
+	color: #cccccc;
+}
+.hidden{
+	display: none;
+}
 .btn{
 	font-size: 1em;
 	border:0px solid #ccc; /*цвет границы*/
