@@ -216,22 +216,22 @@
       <!--<div class="row text-header">
 				<h2>Контакты</h2>
 			</div>-->
-			<div class="row">
+			<div class="row justify-content-md-center">
 				<!--<div class="col-xs-12 col-sm-4">
 					<p><strong>Все вопросы по разработке лендинга отправляйте на эл.адрес:</strong><br>email@mail.ru</p>
 				</div>-->
-				<div class="col-xs-12 col-sm-8">
+				<div class="col-md-8 ">
+					<H3 class="text-center">Задайте вопрос</H3>
 					<form id="sendMsg">
-						<H3>Задайте вопрос</H3>
 						<div id="note"></div>
 						<div id="fields">
 							<input type="hidden" name="formType" value="sendMsg">
 							
 							<p><input type="text" name="clientName" id="clientName" placeholder="Имя" required> </p>
 							
-							<p><input type="email" name="clientEmail" id="clientEmail" placeholder="E-mail для ответа" required> </p>
+							<p><input type="email" name="clientEmail" id="clientEmail" placeholder="Ваш e-mail" required> </p>
 							
-							<p><textarea name="message" cols="1" rows="10" id="desc" placeholder="Текст сообщения" style="width:98%" required></textarea></p>
+							<p><textarea name="message" cols="1" rows="3" id="desc" placeholder="Текст сообщения" style="width:98%" required></textarea></p>
 							
 							<p>Нажимая кнопку "отправить", вы соглашаетесь с <a href="soglasie.php" target="_blank">правилами обработки данных</a></p>
 							<p><button type="submit" id="submit" class="go">Отправить сообщение</button></p>
