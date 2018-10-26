@@ -1,17 +1,5 @@
 $(document).ready(function(){
 
-// menu active
-	// var url=document.location.href;
-// $.each($(".nav a"),function(){
-// if(this.href==url){$(this).addClass('nav_current');};
-// });
-   
-//burger
-	// $('.nav_btn').on('click', function (e) {
-	// 	e.preventDefault;
-	// 	$('.nav_mini').toggleClass('nav_mini_active');
-	// });
-
 	$('.popup').magnificPopup();
 
 	$("form").submit(function() {
@@ -28,7 +16,6 @@ $(document).ready(function(){
 		        }
 		        else {result = msg;}
 						$('#note').html(result);
-						$('#note').focuse();
 		      }
 		    });
 	    return false;

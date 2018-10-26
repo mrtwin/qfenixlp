@@ -246,7 +246,6 @@
 				<div class="col-md-8 ">
 					<H3 class="text-center">Задайте вопрос</H3>
 					<form id="sendMsg">
-						<div id="note"></div>
 						<div id="fields" class="text-center">
 							<input type="hidden" name="formType" value="sendMsg">
 							
@@ -257,6 +256,7 @@
 							<p><textarea name="message" cols="1" rows="3" id="desc" placeholder="Текст сообщения" required></textarea></p>
 							
 							<p>Нажимая кнопку "отправить", вы соглашаетесь с <a href="soglasie.html" target="_blank">правилами обработки данных</a></p>
+							<div id="note"></div>
 							<p><button type="submit" id="submit" class="btn">Отправить сообщение</button></p>
 						</div>
 					</form>
@@ -267,26 +267,9 @@
   </section>
 
 	<section class="hidden">
-		<!--<form id="sendMsg">
-			<H3>Форма обратной связи</H3>
-			<div id="note"></div>
-			<div id="fields">
-				<input type="hidden" name="formType" value="sendMsg">
-					
-					<p><label for="clientName">Ваше имя*</label><input type="text" name="clientName" id="clientName" placeholder="Имя" required> </p>
-					
-					<p><label for="clientEmail">Электронная почта*</label><input type="email" name="clientEmail" id="clientEmail" placeholder="E-mail для ответа" required> </p>
-					
-					<p><textarea name="message" cols="1" rows="10" id="desc" placeholder="Текст сообщения" style="width:98%" required></textarea></p>
-					
-					<p>Нажимая кнопку "отправить", вы соглашаетесь с <a href="soglasie.php" target="_blank">правилами обработки данных</a></p>
-					<p><button type="submit" id="submit" class="go">Отправить сообщение</button></p>
-			</div>
-		</form>-->
 		<form id="getSite">
 			<H3>Заявка на разработку лендинга</H3>
 			<!--<div>Заполните свои контактные данные. Наш сотрудник свяжется с Вами для обсуждения деталей.</div>-->
-			<div id="note"></div>
 			<div id="fields">
 				<input type="hidden" name="formType" value="getSite">
 					
@@ -328,7 +311,8 @@
 					<textarea name="message" cols="1" rows="3" id="desc" placeholder="" style="width:98%" ></textarea>
 					
 					<p>Нажимая кнопку "Отправить заказ", вы соглашаетесь с <a href="soglasie.html" target="_blank">правилами обработки данных</a></p>
-					<p><button type="submit" id="submit" class="btn">Отправить заказ</button></p>
+					<div id="note"></div>
+					<p class="text-center"><button type="submit" id="submit" class="btn">Отправить заказ</button></p>
 			</div>
 	</form>
 
