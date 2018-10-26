@@ -226,17 +226,17 @@
 					<H3 class="text-center">Задайте вопрос</H3>
 					<form id="sendMsg">
 						<div id="note"></div>
-						<div id="fields">
+						<div id="fields" class="text-center">
 							<input type="hidden" name="formType" value="sendMsg">
 							
 							<p><input type="text" name="clientName" id="clientName" placeholder="Имя" required> </p>
 							
 							<p><input type="email" name="clientEmail" id="clientEmail" placeholder="Ваш e-mail" required> </p>
 							
-							<p><textarea name="message" cols="1" rows="3" id="desc" placeholder="Текст сообщения" style="width:98%" required></textarea></p>
+							<p><textarea name="message" cols="1" rows="3" id="desc" placeholder="Текст сообщения" required></textarea></p>
 							
 							<p>Нажимая кнопку "отправить", вы соглашаетесь с <a href="soglasie.php" target="_blank">правилами обработки данных</a></p>
-							<p><button type="submit" id="submit" class="go">Отправить сообщение</button></p>
+							<p><button type="submit" id="submit" class="btn">Отправить сообщение</button></p>
 						</div>
 					</form>
 				</div>
@@ -281,29 +281,25 @@
 						<li>
 							<input type="radio" id="start" name="selector" value="start">
 							<label for="start">Старт</label>
-							
 							<div class="check"></div>
 						</li>
 						
 						<li>
 							<input type="radio" id="standart" name="selector" value="standart">
 							<label for="standart">Стандарт</label>
-							
-							<div class="check"><div class="inside"></div></div>
+							<div class="check"></div>
 						</li>
 						
 						<li>
 							<input type="radio" id="extend" name="selector" value="extend">
 							<label for="extend">Расширенный</label>
-							
-							<div class="check"><div class="inside"></div></div>
+							<div class="check"></div>
 						</li>
 
 						<li style="margin-bottom: 3rem;">
 							<input type="radio" id="bussines" name="selector" value="bussines">
 							<label for="bussines">Бизнес</label>
-							
-							<div class="check"><div class="inside"></div></div>
+							<div class="check"></div>
 						</li>
 					</ul>
 
@@ -311,7 +307,7 @@
 					<textarea name="message" cols="1" rows="3" id="desc" placeholder="" style="width:98%" ></textarea>
 					
 					<p>Нажимая кнопку "Отправить заказ", вы соглашаетесь с <a href="soglasie.html" target="_blank">правилами обработки данных</a></p>
-					<p><button type="submit" id="submit" class="go">Отправить заказ</button></p>
+					<p><button type="submit" id="submit" class="btn">Отправить заказ</button></p>
 			</div>
 	</form>
 	</section>
