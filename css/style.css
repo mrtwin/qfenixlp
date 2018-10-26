@@ -69,8 +69,8 @@ h4{
 .menu-section{
 	background: rgba(116, 116, 116, 0.44);
 	align-items: center;
-	height: 5rem;
-	padding: 0;
+	/*height: 5rem;*/
+	padding: 1rem;
 	/*width: 100%;*/
 	display: flex;
 	position: fixed;

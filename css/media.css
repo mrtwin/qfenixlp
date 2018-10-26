@@ -16,4 +16,9 @@ form{
     max-width: 90%
 }
 
+.contacts, .logo{
+justify-content: center;
+}
+
+
 }
