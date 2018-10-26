@@ -27,7 +27,8 @@ $(document).ready(function(){
 		          $("#fields").hide();
 		        }
 		        else {result = msg;}
-		        $('#note').html(result);
+						$('#note').html(result);
+						$('#note').focuse();
 		      }
 		    });
 	    return false;
