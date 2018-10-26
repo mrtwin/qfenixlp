@@ -15,19 +15,36 @@
 </head>
 
 <body>
-  <section class="header-section" style="background: url(img/bg-geader.jpg);background-size: cover;">
-    <div class="container">
-        <div class="header row">
-          <div class="logo col-md-3">logo</div>
+	<section class="menu-section">
+		<div class="container">
+        <div class="row header">
+					<div class="col logo">
+						<div><a href="#">logo</a></div>
+					</div>
+					<div class="col">
+						<div class="menu">
+							<a href="#portfolio">Примеры</a>
+              <a href="#prices">Цены</a>
+              <a href="#contacts">Контакты</a>
+						</div>
+					</div>
+					<div class="col contacts">
+						qfenix@yandex.ru
+					</div>
+          <!--<div class="logo col-md-3">logo</div>
           <div class="menu col-md-6">
               <div class="menu">
-                  <a href="#">Цены</a>
-                  <a href="#">Примеры</a>
-                  <a href="#">Контакты</a>
+                  <a href="#portfolio">Примеры</a>
+                  <a href="#prices">Цены</a>
+                  <a href="#contacts">Контакты</a>
                 </div>
           </div>
-          <div class="contacts col-md-3">phone</div>
+          <div class="contacts col-md-3">qfenix@yandex.ru</div>-->
         </div>
+		</div>
+	</section>
+  <section class="header-section" style="background: url(img/bg-geader.jpg);background-size: cover;">
+    <div class="container">
         <div class="row flex-center">
           <h1>Разработка Landing page</h1>
         </div>
@@ -89,14 +106,14 @@
   </section>
 	
   
-  <section>
+  <section id="portfolio">
     <div class="container">
         <div class="row text-header">
 			<h2>Наши работы</h2>
 		</div>
 		<div class="row">
 			<div class="col-xs-12 col-md-4 example ex__right">
-					<img src="img/ex-1.jpg" alt="">
+					<a href="#ex1" class="popup"><img src="img/adaptive.png" alt=""></a>
 			</div>
 			<div class="col-xs-12 col-md-4 example ex__center">
 					<img src="img/ex-2.jpg" alt="">
@@ -108,7 +125,7 @@
     </div>
   </section>
 
-  <section class="price-section">
+  <section id="prices" class="price-section">
     <div class="container">
         <div class="row text-header">
 					<h2>Цены</h2>
@@ -125,6 +142,7 @@
 						<p class="active">адаптивная верстка</p>
 						<p class="active">программирование</p>
 						<p class="active">второй лендинг -40%</p>
+						<p class="noactive">панель управления</p>
 						<p class="noactive">написание текста</p>
 						<p class="noactive">регистрация и подключение домена</p>
 						<p class="noactive">хостинг на год</p>
@@ -148,6 +166,7 @@
 						<p class="active">адаптивная верстка</p>
 						<p class="active">программирование</p>
 						<p class="active">второй лендинг -40%</p>
+						<p class="active">панель управления</p>
 						<p class="active">написание текста</p>
 						<p class="active">регистрация и подключение домена</p>
 						<p class="active">хостинг на месяц</p>
@@ -171,6 +190,7 @@
 						<p class="active">адаптивная верстка</p>
 						<p class="active">программирование</p>
 						<p class="active">второй лендинг -40%</p>
+						<p class="active">панель управления</p>
 						<p class="active">написание текста</p>
 						<p class="active">регистрация и подключение домена</p>
 						<p class="active">хостинг на 6 месяцев</p>
@@ -194,6 +214,7 @@
 						<p class="active">адаптивная верстка</p>
 						<p class="active">программирование</p>
 						<p class="active">второй лендинг -40%</p>
+						<p class="active">панель управления</p>
 						<p class="active">написание текста</p>
 						<p class="active">регистрация и подключение домена</p>
 						<p class="active">хостинг на год</p>
@@ -208,12 +229,12 @@
 			</div>
 		</div>
 		<div class="row flex-center" style="margin: 2rem 0 3rem;">
-          <a href="#" class="btn"/>Заказать</a>
+          <a href="#getSite" class="popup btn"/>Заказать</a>
     </div>
     </div>
 	</section>
 	
-  <section class="footer-section">
+  <section id="contacts" class="footer-section">
     <div class="container">
       <!--<div class="row text-header">
 				<h2>Контакты</h2>
@@ -235,7 +256,7 @@
 							
 							<p><textarea name="message" cols="1" rows="3" id="desc" placeholder="Текст сообщения" required></textarea></p>
 							
-							<p>Нажимая кнопку "отправить", вы соглашаетесь с <a href="soglasie.php" target="_blank">правилами обработки данных</a></p>
+							<p>Нажимая кнопку "отправить", вы соглашаетесь с <a href="soglasie.html" target="_blank">правилами обработки данных</a></p>
 							<p><button type="submit" id="submit" class="btn">Отправить сообщение</button></p>
 						</div>
 					</form>
@@ -310,6 +331,10 @@
 					<p><button type="submit" id="submit" class="btn">Отправить заказ</button></p>
 			</div>
 	</form>
+
+	<div id="ex1" class="text-center"><img src="img/ex-1.jpg" alt=""></div>
+		
+
 	</section>
 
 <script src="js/jquery-3.3.1.min.js"></script>

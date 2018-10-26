@@ -12,6 +12,8 @@
     text-align: center;
 	padding-top: 0;
 }
-
+form{
+    max-width: 90%
+}
 
 }

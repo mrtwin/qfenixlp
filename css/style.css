@@ -13,6 +13,11 @@ p{
 	height: fit-content;
 	/* border: 1px solid #2d8505; */
 }
+form a {
+	font-style: italic;
+    font-weight: bold;
+    color: inherit;
+}
 img{
 	max-width: 90%;
 	padding: 2rem;
@@ -27,6 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1{
 	font-size: 5rem;
+	margin-top: 6rem;
 	padding: 1em 1rem 1em 1rem;
 }
 h2{
@@ -60,25 +66,58 @@ h4{
 
 
 /*---block------*/
+.menu-section{
+	background: rgba(116, 116, 116, 0.44);
+	align-items: center;
+	height: 5rem;
+	padding: 0;
+	/*width: 100%;*/
+	display: flex;
+	position: fixed;
+	right: 0; 
+	left: 0;
+	justify-content: space-around;
+	z-index: 99;
+}
+
+.menu{
+	margin: 0;
+	/*padding: 15px;*/
+	display: flex;
+	justify-content: center;
+}
+.menu a{
+	padding: 5px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	margin-right: 15px;
+	/*align-items: center;*/
+	color: #fff;
+}
+.menu a:hover {
+	color: #FF8401;
+}
+
+.contacts {
+	display: flex;
+    justify-content: flex-end;
+    align-items: center;
+	color: #fff;
+}
+.logo {
+	display: flex;
+    justify-content: flex-start;
+    align-items: center;
+	color: #fff;
+}
+
 .header-section{
 	color: rgb(241, 241, 241);
-	/*padding-bottom: 4rem;*/
+	/*margin-top: -5rem;*/
 }
 .header{
-	/* background: #f1a9a9; */
-	/* height: 100vh; */
-}
-.logo{
-	/* background: #c3f1a9; */
-	height: 5rem;
-}
-.menu{
-	/* background: #a9b4f1; */
-	/* height: 100vh; */
-}
-.contacts{
-	/* background: #a9b4f1; */
-	/* height: 100vh; */
+	
 }
 
 .text-header{
@@ -239,12 +278,10 @@ form{
 }
 
 /*кнопка закрытия формы*/
-/*.mfp-close { 
-	padding: 1rem;
-    margin: 0;
-    line-height: 0;
-    height: 3rem;
-}*/
+.mfp-close-btn-in .mfp-close {
+    color: #ff8c00;
+}
+
 #getSite label{
 	font-size: 2rem;
 	display: block;
