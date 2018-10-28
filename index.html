@@ -18,28 +18,20 @@
 	<section class="menu-section">
 		<div class="container">
         <div class="row header">
-					<div class="col-12 col-sm logo">
-						<div><a href="#">logo</a></div>
+					<div class="col-12 col-md-3">
+						<div class="logo"><a href="#"><img src="img/logo1.png" alt="" style="padding: 0;max-width: 100%;"></a></div>
 					</div>
-					<div class="col-12 col-sm">
+					<div class="col-12 col-md-6">
 						<div class="menu">
 							<a href="#portfolio">Примеры</a>
               <a href="#prices">Цены</a>
               <a href="#contacts">Контакты</a>
 						</div>
 					</div>
-					<div class="col-12 col-sm contacts">
+					<div class="col-12 col-md-3 contacts">
+							<!--  -->
 						qfenix@yandex.ru
 					</div>
-          <!--<div class="logo col-md-3">logo</div>
-          <div class="menu col-md-6">
-              <div class="menu">
-                  <a href="#portfolio">Примеры</a>
-                  <a href="#prices">Цены</a>
-                  <a href="#contacts">Контакты</a>
-                </div>
-          </div>
-          <div class="contacts col-md-3">qfenix@yandex.ru</div>-->
         </div>
 		</div>
 	</section>
@@ -113,19 +105,20 @@
 		</div>
 		<div class="row">
 			<div class="col-xs-12 col-md-4 example ex__right">
-					<a href="#ex1" class="popup"><img src="img/adaptive.png" alt=""></a>
+					<a href="#ex1" class="popup"><img src="img/ex1-min.jpg" alt=""></a>
 			</div>
 			<div class="col-xs-12 col-md-4 example ex__center">
-					<img src="img/ex-2.jpg" alt="">
+				<a href="#ex2" class="popup"><img src="img/ex2.jpg" alt=""></a>
 			</div>
 			<div class="col-xs-12 col-md-4 example ex__left">
-					<img src="img/ex-3.jpg" alt="">
+				<a href="#ex3" class="popup"><img src="img/ex3-min.jpg" alt=""></a>
 			</div>
 		</div>
     </div>
   </section>
 
-  <section id="prices" class="price-section">
+  <section id="prices" class="price-section" >
+		<!-- style="background: url(img/adaptive.png);background-size: cover;"--> 
     <div class="container">
         <div class="row text-header">
 					<h2>Цены</h2>
@@ -255,7 +248,7 @@
 							
 							<p><textarea name="message" cols="1" rows="3" id="desc" placeholder="Текст сообщения" required></textarea></p>
 							
-							<p>Нажимая кнопку "отправить", вы соглашаетесь с <a href="soglasie.html" target="_blank">правилами обработки данных</a></p>
+							<p>Нажимая кнопку "Отправить сообщение", вы соглашаетесь с <a href="soglasie.html" target="_blank">правилами обработки данных</a></p>
 							<div id="note"></div>
 							<p><button type="submit" id="submit" class="btn">Отправить сообщение</button></p>
 						</div>
@@ -316,7 +309,9 @@
 			</div>
 	</form>
 
-	<div id="ex1" class="text-center"><img src="img/ex-1.jpg" alt=""></div>
+	<div id="ex1" class="text-center ex-max"><img src="img/ex1.jpg" alt="Пример работ при разработке лендинга."></div>
+	<div id="ex2" class="text-center ex-max"><img src="img/ex2.jpg" alt="Пример работ при разработке лендинга."></div>
+	<div id="ex3" class="text-center ex-max"><img src="img/ex3.jpg" alt="Пример работ при разработке лендинга."></div>
 		
 
 	</section>

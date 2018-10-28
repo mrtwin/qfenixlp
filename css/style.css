@@ -69,8 +69,8 @@ h4{
 .menu-section{
 	background: rgba(116, 116, 116, 0.44);
 	align-items: center;
-	/*height: 5rem;*/
-	padding: 1rem;
+	height: 70px;
+	padding: 1rem 0 0;
 	/*width: 100%;*/
 	display: flex;
 	position: fixed;
@@ -106,10 +106,17 @@ h4{
 	color: #fff;
 }
 .logo {
+	width: 100px;
+	height: 30px;
+	/* border: 1px solid #99cc66; */
 	display: flex;
-    justify-content: flex-start;
-    align-items: center;
+  justify-content: flex-start;
+  align-items: center;
 	color: #fff;
+}
+.logo>a>img{
+	max-width: 100%;
+	padding: 0;
 }
 
 .header-section{
@@ -150,6 +157,10 @@ h4{
 	padding: 0;
 	margin: 0;
 }
+.ex-max{
+	width: 80%;
+  margin: auto;
+}
 .ex__right{
 	text-align: right; 
 	padding-top: 5rem;
@@ -163,19 +174,27 @@ h4{
 
 .price-section{
 	background: linear-gradient(to top, #e2deff, #ffffff);
+	/* background: url(img/adaptive.png); */
 	/*padding-bottom: 4rem;*/
 }
 .price-item{
 	margin-bottom: 4rem;
 	border: 1px solid #99cc66;
 	border-radius: 10px;
+	box-shadow: 0px 1px 11px #989898;
 }
+
 .price-item__header{
-	background: rgba(157, 208, 107, 0.25);
+	background: #bcef89;
 	border-bottom: 1px solid #99cc66;
+	border-radius: 10px 10px 0 0;
 	font-size: 2rem;
 	text-align: center;
 }
+.price-item__body{
+	/* background: #fdefdd; */
+}
+
 .price-item__body .noactive, .active{
 	margin: 0;
     padding: 1rem;
@@ -193,8 +212,9 @@ h4{
 	border-bottom: 1px dotted #ddd;
 }*/
 .price-item__footer{
-	background: rgba(157, 208, 107, 0.25);
+	background: #bcef89;
 	border-top: 1px solid #99cc66;
+	border-radius: 0 0 10px 10px;
 	font-size: 2rem;
 	text-align: center;
 }
@@ -380,7 +400,7 @@ form{
 	font-size: 1em;
 	border:0px solid #ccc; /*цвет границы*/
 	border-radius: 4px;
-	background:#99cc66;  /*цвет фона*/
+	background:#339933;  /*цвет фона*/
 	padding: 1rem 6rem;
 	/*display:block;*/
 	text-align:center; /*выравнивание текста по центру*/
