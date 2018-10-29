@@ -70,7 +70,7 @@ h4{
 	background: rgba(116, 116, 116, 0.44);
 	align-items: center;
 	height: 70px;
-	padding: 1rem 0 0;
+	padding: 1rem 0;
 	/*width: 100%;*/
 	display: flex;
 	position: fixed;
@@ -82,7 +82,7 @@ h4{
 
 .menu{
 	margin: 0;
-	/*padding: 15px;*/
+	padding: 15px;
 	display: flex;
 	justify-content: center;
 }
@@ -107,7 +107,7 @@ h4{
 }
 .logo {
 	width: 100px;
-	height: 30px;
+	/* height: 30px; */
 	/* border: 1px solid #99cc66; */
 	display: flex;
   justify-content: flex-start;

@@ -19,6 +19,15 @@ form{
 .contacts, .logo{
 justify-content: center;
 }
-
+.menu-section{
+    height: auto;
+    position: absolute;
+}
+h1{
+    margin-top: 10rem;
+}
+.menu{
+    padding: 0;
+}
 
 }
