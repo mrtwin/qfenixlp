@@ -29,5 +29,8 @@ h1{
 .menu{
     padding: 0;
 }
+.price-fone, .wedo-fone{
+    display: none;
+}
 
 }
