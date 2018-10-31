@@ -219,8 +219,9 @@ h4{
 
 .price-item__body .noactive, .active{
 	margin: 0;
+	line-height: 1.8rem;
     padding: 1rem;
-	padding-bottom: 1rem;
+	/* padding-bottom: 1rem; */
 	text-align: center;
 	border-bottom: 1px dotted #ddd;
 }
