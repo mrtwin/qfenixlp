@@ -32,5 +32,11 @@ h1{
 .price-fone, .wedo-fone{
     display: none;
 }
+.price-item{
+    animation-delay: 0s;
+}
+.price-item__body .noactive, .active{
+	line-height: 1.4rem;
+}
 
 }
