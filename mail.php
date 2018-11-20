@@ -8,7 +8,11 @@ if($post) {
 	$error = '';
 	// $email_to = "info@qfenix.ru";
 	$email_to = "weblapa@yandex.ru";
+<<<<<<< HEAD
 	$email = "info@weblapa.ru";
+=======
+	$email = "info@qfenix.ru";
+>>>>>>> 5cc8ee0f2f27fbec9d38f3331bcd1b5e5713432c
 	$sub = "Сообщение с сайта.";
 	$mes = "";
 	
