@@ -7,8 +7,8 @@ if($post) {
 	$clientName = $_POST['clientName'];
 	$error = '';
 	// $email_to = "info@qfenix.ru";
-	$email_to = "qfenixstd@yandex.ru";
-	$email = "info@qfenix.ru";
+	$email_to = "weblapa@yandex.ru";
+	$email = "info@weblapa.ru";
 	$sub = "Сообщение с сайта.";
 	$mes = "";
 	
