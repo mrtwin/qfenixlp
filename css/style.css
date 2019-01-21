@@ -203,7 +203,7 @@ h4{
 }
 .portfolio{
 	background: #cecece;
-	background: linear-gradient(to top, rgba(0,0,0, 0), #ddd);
+	background: linear-gradient(to top, rgba(0,0,0, 0), #dddddd);
 }
 .portfolio-fone{
 	width: 100%;
