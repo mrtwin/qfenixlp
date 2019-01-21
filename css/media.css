@@ -29,7 +29,7 @@ h1{
 .menu{
     padding: 0;
 }
-.price-fone, .wedo-fone{
+.price-fone, .wedo-fone, .portfolio-fone{
     display: none;
 }
 .price-item{
@@ -38,5 +38,7 @@ h1{
 .price-item__body .noactive, .active{
 	line-height: 1.4rem;
 }
-
+.btn-whatsapp{
+    display: flex;
+}
 }

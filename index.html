@@ -75,13 +75,13 @@
 	<section class="header-section" style="background: url(img/bg-header.jpg);background-size: cover;">
 		<div class="container">
         <div class="row flex-center">
-          <h1>Разработка Landing page</h1>
+		  <h1>Разработка Landing page</h1>
         </div>
           <div class="row priveleges">
-            <div class="col-md-6 text-center">Без предоплаты<br>
+            <div id="notpay" class="col-md-6 text-center">Без предоплаты<br>
 							<div class="div-line"> </div>
 						</div>
-						<div class="col-md-6 text-center">Создание рекламной компании<br>
+						<div id="direct" class="col-md-6 text-center">Создание рекламной компании<br>
 							<div class="div-line"> </div>
 						</div>
           </div>
@@ -89,7 +89,7 @@
             <div class="col-md-6 text-center">Бесплатные консультации<br>
 							<div class="div-line"></div>
 						</div>
-            <div class="col-md-6 text-center">Средний срок разработки 10 дней<br>
+            <div id="fastwork" class="col-md-6 text-center">Средний срок разработки 10 дней<br>
 							<div class="div-line"></div>
 						</div>
           </div>
@@ -137,9 +137,46 @@
 			</div>
     </div>
   </section>
+
+  <section id="advantages">
+    <div class="container">
+      	<div class="row">
+			<div class="text-header">
+				<h2 class="run_line">Без рисков</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="text-desc text-center">
+				Мы работаем по принципу "Утром стулья - вечером деньги". <br>
+				Доверяя своим клиентам, мы не берем предоплату.
+			</div>
+		</div>
+		<div class="row">
+			<div class="text-header">
+				<h2 class="run_line">Надежно</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="text-desc text-center">
+				После каждого этапа создания лендинга Вы получите результаты работ наруки.
+			</div>
+		</div>
+		<div class="row">
+			<div class="text-header">
+				<h2 class="run_line">Под ключ</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="text-desc text-center">
+				Выполним все технические работы для запуска лендинга. Подготовим инструкции для самостоятельного администрированию сайта.
+			</div>
+		</div>
+    </div>
+  </section>
 	
   
-  <section id="portfolio">
+  <section id="portfolio" class="portfolio">
+	<div class="portfolio-fone" style="background: url(img/bg-portfolio.png); background-repeat: no-repeat;"></div>
     <div class="container">
       <div class="row">
 				<div class="text-header">
@@ -168,8 +205,8 @@
 					<div class="text-header">
 						<h2 class="run_line">Цены</h2>
 					</div>
-				</div>
-			<div class="row">
+		</div>
+		<div class="row">
 				<div class="col-xs-12 col-sm-6 col-md-3">
 					<div class="price-item wow flipInY" data-wow-delay=0.2s data-wow-offset=200>
 						<div class="price-item__header">
@@ -179,7 +216,7 @@
 							<p class="active">бесплатный прототип</p>
 							<p class="active">дизайн</p>
 							<p class="active">адаптивная верстка</p>
-							<p class="active">программирование</p>
+							<!-- <p class="active">программирование</p> -->
 							<p class="active">второй лендинг -40%</p>
 							<p class="noactive">панель управления</p>
 							<p class="noactive">написание текста</p>
@@ -190,7 +227,7 @@
 							<p class="noactive">сопровождение 1 месяц</p>
 						</div>
 						<div class="price-item__footer">
-							9 990 руб.
+							6 990 руб.
 						</div>
 					</div>
 				</div>
@@ -203,7 +240,7 @@
 							<p class="active">бесплатный прототип</p>
 							<p class="active">дизайн</p>
 							<p class="active">адаптивная верстка</p>
-							<p class="active">программирование</p>
+							<!-- <p class="active">программирование</p> -->
 							<p class="active">второй лендинг -40%</p>
 							<p class="active">панель управления</p>
 							<p class="active">написание текста</p>
@@ -214,7 +251,7 @@
 							<p class="noactive">сопровождение 1 месяц</p>
 						</div>
 						<div class="price-item__footer">
-							14 990 руб.
+							9 990 руб.
 						</div>
 					</div>
 				</div>
@@ -227,7 +264,7 @@
 							<p class="active">бесплатный прототип</p>
 							<p class="active">дизайн</p>
 							<p class="active">адаптивная верстка</p>
-							<p class="active">программирование</p>
+							<!-- <p class="active">программирование</p> -->
 							<p class="active">второй лендинг -40%</p>
 							<p class="active">панель управления</p>
 							<p class="active">написание текста</p>
@@ -235,10 +272,10 @@
 							<p class="active">хостинг на <strong>6</strong> месяцев</p>
 							<p class="active">настройка Яндекс метрики</p>
 							<p class="noactive">создание рекламной компании в Яндекс</p>
-							<p class="noactive">сопровождение 1 месяц</p>
+							<p class="active">сопровождение 1 месяц</p>
 						</div>
 						<div class="price-item__footer">
-							17 990 руб.
+							11 990 руб.
 						</div>
 					</div>
 				</div>
@@ -251,7 +288,7 @@
 							<p class="active">бесплатный прототип</p>
 							<p class="active">дизайн</p>
 							<p class="active">адаптивная верстка</p>
-							<p class="active">программирование</p>
+							<!-- <p class="active">программирование</p> -->
 							<p class="active">второй лендинг -40%</p>
 							<p class="active">панель управления</p>
 							<p class="active">написание текста</p>
@@ -262,14 +299,14 @@
 							<p class="active">сопровождение 1 месяц</p>
 						</div>
 						<div class="price-item__footer">
-							29 990 руб.
+							22 990 руб.
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="row flex-center wow fadeIn" data-wow-delay=0.3s style="margin: 2rem 0 3rem;">
-						<a href="#getSite" class="popup btn"/>Заказать</a>
-			</div>
+		</div>
+		<div class="row flex-center wow fadeIn" data-wow-delay=0.3s style="margin: 2rem 0 3rem;">
+			<a href="#getSite" class="popup btn"/>Заказать</a>
+		</div>
     </div>
 	</section>
 	
@@ -301,7 +338,9 @@
 					</form>
 				</div>
 			</div>
-			
+		<div class="row flex-center">
+				<a href="https://api.whatsapp.com/send?phone=79625354208" class="btn btn-whatsapp">Спросить в WhatsApp</a>
+		</div>	
     </div>
   </section>
 
@@ -355,7 +394,7 @@
 			</div>
 			<div id="note"></div>
 	</form>
-
+	
 	<div id="ex1" class="text-center ex-max"><img src="img/ex1.jpg" alt="Пример работ при разработке лендинга."></div>
 	<div id="ex2" class="text-center ex-max"><img src="img/ex2.jpg" alt="Пример работ при разработке лендинга."></div>
 	<div id="ex3" class="text-center ex-max"><img src="img/ex3.jpg" alt="Пример работ при разработке лендинга."></div>
